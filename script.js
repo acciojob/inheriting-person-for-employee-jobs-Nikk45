@@ -9,9 +9,9 @@ Person.prototype.greet = function () {
 }
 
 function Employee(name, age, jobTitle) {
-	Person.call(this);
-	this.name = name;
-	this.age = age;
+	Person.call(this,name,age);
+	// this.name = name;
+	// this.age = age;
 	this.jobTitle = jobTitle;
 }
 
