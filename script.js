@@ -21,6 +21,7 @@ Employee.prototype.__proto__ = Person.prototype;
 
 const employee = new Employee("Bob",30,"Manager");
 employee.jobGreet();
+employee.greet();
 // Do not change code below this line
 window.Person = Person;
 window.Employee = Employee;
